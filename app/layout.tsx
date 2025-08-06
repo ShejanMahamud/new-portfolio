@@ -16,11 +16,11 @@ const publicSans = Public_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Shejan Mahamud | Full Stack Engineer (Backend Focused)",
+  title: "Shejan Mahamud | Full Stack Developer (Backend Focused)",
   description:
-    "Portfolio of Shejan Mahamud – a Full Stack Engineer specializing in backend development using Node.js, NestJS, PostgreSQL, and AWS. Expert in building scalable APIs and cloud-ready applications with TypeScript, Prisma, and React.",
+    "Portfolio of Shejan Mahamud – a Full Stack Developer specializing in backend development using Node.js, NestJS, PostgreSQL, and AWS. Expert in building scalable APIs and cloud-ready applications with TypeScript, Prisma, and React.",
   keywords: [
-    "Full Stack Engineer",
+    "Full Stack Developer",
     "Backend Developer",
     "Node.js Developer",
     "NestJS Developer",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   creator: "Shejan Mahamud",
   metadataBase: new URL("https://portfolio.shejan.me"),
   openGraph: {
-    title: "Shejan Mahamud | Full Stack Engineer",
+    title: "Shejan Mahamud | Full Stack Developer",
     description:
       "Scalable, cloud-ready web apps built using TypeScript, Node.js, NestJS, PostgreSQL, Prisma, and AWS. View the portfolio of Shejan Mahamud.",
     url: "https://portfolio.shejan.me",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shejan Mahamud | Full Stack Engineer (Backend Focused)",
+    title: "Shejan Mahamud | Full Stack Developer (Backend Focused)",
     description:
       "Explore Shejan Mahamud's developer portfolio – expert in Node.js, NestJS, PostgreSQL, and React. Building modern, cloud-ready applications.",
     creator: "@me_shejan", // optional: replace with your Twitter

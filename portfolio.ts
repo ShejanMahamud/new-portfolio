@@ -5,13 +5,15 @@ const header = {
 
 const about = {
   name: "Shejan Mahamud",
-  role: "Full-stack engineer",
+  role: "Full-stack Developer",
   description:
     "Specializing in NodeJS, NestJS, ExpressJS, MongoDB, PostgreSQL, and NextJS. I build scalable and performant web applications with modern frameworks, focusing on user experience.",
   resume: "/api/resume",
   social: {
+    leetcode: "https://leetcode.com/u/shejan/",
     linkedin: "https://www.linkedin.com/in/md-shejanmahamud/",
     github: "https://github.com/ShejanMahamud",
+    medium: "https://medium.com/@shejanmahamud",
   },
 };
 
