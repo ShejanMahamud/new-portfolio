@@ -1,5 +1,4 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
-import LaunchIcon from "@mui/icons-material/Launch";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -43,17 +42,6 @@ const ProjectContainer = ({ project }: { project: (typeof projects)[0] }) => (
             target="_blank"
           >
             <GitHubIcon />
-          </CustomLink>
-        )}
-
-        {project.liveUrl && (
-          <CustomLink
-            href={project.liveUrl}
-            aria-label="live preview"
-            variant="icon"
-            target="_blank"
-          >
-            <LaunchIcon />
           </CustomLink>
         )}
 
