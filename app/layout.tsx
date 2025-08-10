@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import { CustomThemeProvider } from "@/theme";
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Bebas_Neue, Public_Sans } from "next/font/google";
 import "./globals.css";
@@ -81,6 +82,7 @@ export default function RootLayout({
           <div className="bg-[var(--foreground)] text-[var(--text)] relative">
             <Header />
             {children}
+            <Analytics />
           </div>
         </CustomThemeProvider>
       </body>
